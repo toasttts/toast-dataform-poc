@@ -1,0 +1,7 @@
+config {
+  type: "table",
+  schema: "saas_analytics_${environment}_${developer}",
+  description: "Raw users reference"
+}
+
+SELECT * FROM raw.users

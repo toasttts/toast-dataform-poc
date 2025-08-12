@@ -1,0 +1,7 @@
+config {
+  type: "table",
+  schema: "saas_analytics_${environment}_${developer}",
+  description: "Raw feature events reference"
+}
+
+SELECT * FROM raw.feature_events
